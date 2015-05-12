@@ -14,7 +14,7 @@ body {
 
 .navigation-wrapper {
 	@include container;
-	padding: 2em 0 1em;
+	padding: 1em 0 0;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -296,8 +296,8 @@ $button-size: 1.5rem;
 		left: 8%;
 		width: 0;
 		height: 0;
-		border: 10px solid transparent;
-		border-bottom-color: $bodycolor;
+		/*border: 10px solid transparent;*/
+		/*border-bottom-color: $bodycolor;*/
 		@media #{$small} {
 			left: 25%;
 		}
@@ -305,7 +305,7 @@ $button-size: 1.5rem;
 			border-width: 20px;
 		}
 		@media #{$x-large} {
-			left: 33.333333333%;
+			left: 33.333333333333333%;
 		}
 	}
 	img {
@@ -423,7 +423,7 @@ $button-size: 1.5rem;
 		display: none;
 	}
 	.bio-photo {
-		float: left;
+		margin-left: 25px;
 		margin-right: 25px;
 		max-width: 100px;
 		@include rounded(150px);
@@ -629,7 +629,8 @@ $button-size: 1.5rem;
 	@include container;
 	@include clearfix;
 	clear: both;
-	padding-bottom: 3em;
+	padding-top: 3em;
+	padding-bottom: 1em;
 	a,
 	a:active,
 	a:visited,
