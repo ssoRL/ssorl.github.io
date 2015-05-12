@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Work
+  url: /work/
+
+- title: Posts
+  url: /posts/
+
+- title: Resumé
+  url: /resume/JohnLianCV.pdf
+
+- title: Contact
+  url: /contact/

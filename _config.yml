@@ -1,0 +1,40 @@
+# Site wide configuration
+
+title:            John Lian
+locale:           en_US
+# url:              http://localhost:4000 #default
+url:               http://www.johnlian.ca
+
+# Site owner
+owner:
+  name:           John Lian
+  avatar:         bio-photo.png
+  bio:            "Montreal, Quebec"
+  email:          john.lian@mail.mcgill.ca
+  # Social networking links
+  twitter:        jlian
+  facebook:       jlian
+  github:         jlian
+  linkedin:       johnlian1
+
+# Jekyll configuration
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:        /:categories/:title/
+markdown:         kramdown
+highlighter:      pygments
+sass:
+  sass_dir:       _sass
+  style:          compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  use_coderay:    false
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
