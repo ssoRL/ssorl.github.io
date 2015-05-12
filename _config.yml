@@ -10,9 +10,9 @@ owner:
   name:           John Lian
   avatar:         bio-photo.png
   bio:            "Montreal, Quebec"
-  email:          john.lian@mail.mcgill.ca
+  # email:          john.lian@mail.mcgill.ca
   # Social networking links
-  twitter:        jlian
+  # twitter:        jlian
   facebook:       jlian
   github:         jlian
   linkedin:       johnlian1
