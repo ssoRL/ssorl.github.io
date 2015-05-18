@@ -7,10 +7,10 @@
    ========================================================================== */
 
 $doc-font-size: 16;
-$doc-line-height: 26;
+$doc-line-height: 24;
 $paragraph-indent: true !default;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
+$base-font: 'Source Sans Pro', sans-serif;
+$heading-font: 'Open Sans Condensed', sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
@@ -20,11 +20,11 @@ $alt-font: $base-font;
 
 $bodycolor      : #fff;
 $body-color     : $bodycolor;
-$textcolor      : #333332;
+$textcolor      : #333333;
 $text-color     : $textcolor;
 $border-color   : $text-color;
-$basecolor 		  : #343434;	  
-$compcolor 		  : spin($basecolor, 180); 
+$basecolor 		: #343434;	  
+$compcolor 		: spin($basecolor, 180); 
 $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
@@ -53,9 +53,9 @@ $youtube-color      : #ff3333;
 
 /* links */
 $linkcolor 		    : #343434;
-$link-color       : $linkcolor;
+$link-color         : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
-$linkcolorvisited : lighten($linkcolorhover, 20);
+$linkcolorvisited   : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 
 /* 
