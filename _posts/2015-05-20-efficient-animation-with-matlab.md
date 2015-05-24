@@ -14,9 +14,9 @@ I used animation to help me visualize some of the work I did for my [honours the
 	<figcaption>Shockwave created by a driving piston in a one-dimensional nonlinear lattice</figcaption>
 </figure>
 
-### The Mistake
+### The Easy Way
 
-Say you want to animate a particle trajectory - position versus time, perhaps. The most obvious way would be to use `plot()` in a `for` loop, kind of like so:
+Say you want to animate a particle trajectory (position vs time), the most obvious way would be to use `plot()` in a `for` loop, kind of like this:
 
 {% highlight matlab %}
 % Animation loop
@@ -29,7 +29,7 @@ for i = 1:totalFrames
 end
 {% endhighlight %}
 
-If you've ever tried doing this you would notice that it scales very badly. Even if the plot is just a little bit complex this method becomes very slow, with lots of flashes of the figure window. Every time `plot()` is called MATLAB has to work to repeat a lot of unnecessary work.[^1] 
+If you've ever tried doing this you would notice that it does not scale well. Even if the plot is just a little bit complex this method becomes *very* slow, with lots of flashes of the figure window. Every time `plot()` is called MATLAB has to work to repeat a lot of unnecessary work.[^1] 
 
 [^1]: This is no longer the case after r2014b.
 

@@ -70,7 +70,7 @@ I also developed a numerical simulator used to compare theoretical trajectories 
 
 <figure>
 	<a href="/images/simvsreal.png"><img src="/images/simvsreal.png"></a>
-	<figcaption>Simulation of acoustic wave in nonlinear media V.S. observed with air bearing device.</figcaption>
+	<figcaption>Simulation of acoustic wave in nonlinear media vs observed with air bearing device.</figcaption>
 </figure>
 
 
