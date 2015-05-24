@@ -46,9 +46,11 @@ At the same time, I focused on long-term sustainability of the team by installin
 
 I completed an honours mechanical engineering thesis under Prof. Andrew Higgins. It can be viewed [here](thesis.pdf). As a part of the the thesis, three projects were completed - listed below.
 
-#### MATLAB Particle Tracking Application 
+#### MATLAB Particle Tracker
 
-With the help of open-source algorithms, I developed a user-friendly MATLAB application that could reliably and accurately track particles in video footages. It is hosted on GitHub here: <https://github.com/jlian/matlab-particle-tracker>.
+With the help of open-source algorithms, I developed a user-friendly MATLAB application that could reliably and accurately track particles in video footages. 
+
+<div markdown="0"><a href="https://github.com/jlian/matlab-particle-tracker" class="btn btn-info"><i class="fa fa-fw fa-github"></i> View on GitHub</a></div>
 
 #### Magnets Suspension Device
 
@@ -76,6 +78,6 @@ I also developed a numerical simulator used to compare theoretical trajectories 
 
 ### Super Smashteroids
 
-A silly little game we developed in JAVA. It has multi player and level progression.
+A silly little game we developed in Java. It has multi player and level progression.
 
 

@@ -7,14 +7,14 @@ tags: [MATLAB, thesis]
   feature: latech.jpg -->
 ---
 
-I used animation to help me visualize some of the work I did for my [honours thesis](/work/thesis.pdf) (PDF warning). Prior to [MATLAB r2014b's major graphics changes](http://www.mathworks.com/help/matlab/graphics-changes-in-r2014b.html), it wasn't exactly easy to create efficient animations with MATLAB, so I spent some time figuring out the best way to do it. This is what I had in the end:
+I used animation to help me visualize some of the work I did for my [honours thesis](/work/thesis.pdf) (PDF warning). Prior to [MATLAB R2014b's major graphics changes](http://www.mathworks.com/help/matlab/graphics-changes-in-r2014b.html), it wasn't exactly easy to create efficient animations with MATLAB, so I spent some time figuring out the best way to do it. This is what I had in the end:
 
 <figure>
 	<a href="/matlab-animation/shock.gif"><img src="/matlab-animation/shock.gif"></a>
 	<figcaption>Shockwave created by a driving piston in a one-dimensional nonlinear lattice</figcaption>
 </figure>
 
-### The Easy Way
+### The "Easy" Way
 
 Say you want to animate a particle trajectory (position vs time), the most obvious way would be to use `plot()` in a `for` loop, kind of like this:
 
@@ -29,9 +29,9 @@ for i = 1:totalFrames
 end
 {% endhighlight %}
 
-If you've ever tried doing this you would notice that it does not scale well. Even if the plot is just a little bit complex this method becomes *very* slow, with lots of flashes of the figure window. Every time `plot()` is called MATLAB has to work to repeat a lot of unnecessary work.[^1] 
+If you've ever tried doing this you would notice that it does not scale well. Even if the plot is just a little bit complex this method becomes *very slow*, with lots of flashes of the figure window. Every time `plot()` is called MATLAB has to repeat a lot of unnecessary work.[^1] 
 
-[^1]: This is no longer the case after r2014b.
+[^1]: This is no longer the case after R2014b.
 
 ### A Better Method
 
@@ -56,12 +56,19 @@ for i = 2:totalFrames
 end
 {% endhighlight %}
 
-I wrote a simple script that uses this technique to animate a particle in a sine trajectory. You can download it [here](/matlab-animation/Animate.m). What it should look like:[^2]
+**Note:** Sometimes, especially if your animation update command is after complicated computation, you need to use `drawnow` to force the animation to occur in real time.
+{: .notice}
+
+#### A Quick Example
+
+I wrote a simple script that uses this technique to animate a particle in a sine trajectory. It should look like this:[^2]
 
 <figure>
 	<a href="/matlab-animation/sine.gif"><img src="/matlab-animation/sine.gif"></a>
 	<figcaption>A particle with sine trajectory</figcaption>
 </figure>
+
+<a markdown="0" href="{{ site.url }}/matlab-animation/Animate.m" class="btn">Download Animate.m</a>
 
 [^2]: This GIF is 60 FPS.
 
@@ -92,19 +99,23 @@ end
 
 Here, `particlePosition` contains three trajectories. Note the use of `num2cell` in setting `YData` is required for the animation to work properly because of the way graphics data are structured in MATLAB. 
 
-It's important to know that the `YData` you are setting must be a **column cell vector**. So if your data is structured such that each row represents a frame in the animation, you must transpose your data in `set()`.
+**Note:** The`YData` you are setting must be a **column cell vector**. So if your data is structured such that each row represents a frame in the animation, you must transpose your data in `set()`.
+{: .notice}
 
-I wrote another script to show how this can be implemented [here](/matlab-animation/Animate2.m). It looks like this:
+
+#### Another Quick Example
+
+You can download the other script to see how this can be implemented. It looks like this:
 
 <figure>
 	<a href="/matlab-animation/sine2.gif"><img src="/matlab-animation/sine2.gif"></a>
 	<figcaption>Three particles with different trajectories</figcaption>
 </figure>
 
-### Useful Things
+<a markdown="0" href="{{ site.url }}/matlab-animation/Animate2.m" class="btn">Download Animate2.m</a>
 
-- Sometimes, especially if your animation update command is after complicated computation, you need to use `drawnow` to force the animation to occur in real time.
+### An Example from MathWorks
 
-- I learned a lot from MathWorks' animation example here: <https://www.mathworks.com/examples/matlab/4020-animation>, including how to export as GIFs.
+I learned a lot from MathWorks' animation example here: <https://www.mathworks.com/examples/matlab/4020-animation>, including how to export as GIFs.
 
 
