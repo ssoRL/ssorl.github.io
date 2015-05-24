@@ -48,7 +48,7 @@ I completed an honours mechanical engineering thesis under Prof. Andrew Higgins.
 
 #### MATLAB Particle Tracking Application 
 
-With the help of open-source algorithms, I developed a user-friendly MATLAB application that could reliably and accurately track particles in video footages. It should be hosted on GitHub soon, and I will link it here.
+With the help of open-source algorithms, I developed a user-friendly MATLAB application that could reliably and accurately track particles in video footages. It is hosted on GitHub here: <https://github.com/jlian/matlab-particle-tracker>.
 
 #### Magnets Suspension Device
 
@@ -66,7 +66,7 @@ We were able to suspend magnets using a air-bearing mechanism. This allowed free
 
 #### MATLAB Numerical Simulator for Nonlinear Interaction
 
-I also developed a numerical simulator used to compare theoretical trajectories with ones observed with image analysis. Again, the code should be up soon!
+I also developed a numerical simulator used to compare theoretical trajectories with ones observed with image analysis. I will clean up the code and host it on GitHub soon.
 
 <figure>
 	<a href="/images/simvsreal.png"><img src="/images/simvsreal.png"></a>

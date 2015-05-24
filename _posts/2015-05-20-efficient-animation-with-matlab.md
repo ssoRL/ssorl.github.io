@@ -7,7 +7,7 @@ tags: [MATLAB, thesis]
   feature: latech.jpg -->
 ---
 
-I used animation to help me visualize some of the work I did for my [honours thesis](/work/thesis.pdf). Prior to [MATLAB r2014b's major graphics changes](http://www.mathworks.com/help/matlab/graphics-changes-in-r2014b.html), it wasn't exactly easy to create efficient animations with MATLAB, so I spent some time figuring out the best way to do it. This is what I had in the end:
+I used animation to help me visualize some of the work I did for my [honours thesis](/work/thesis.pdf) (PDF warning). Prior to [MATLAB r2014b's major graphics changes](http://www.mathworks.com/help/matlab/graphics-changes-in-r2014b.html), it wasn't exactly easy to create efficient animations with MATLAB, so I spent some time figuring out the best way to do it. This is what I had in the end:
 
 <figure>
 	<a href="/matlab-animation/shock.gif"><img src="/matlab-animation/shock.gif"></a>
@@ -56,7 +56,7 @@ for i = 2:totalFrames
 end
 {% endhighlight %}
 
-I wrote a simple script that uses this technique to animate a particle in a sine trajectory. You can download it [here](/matlab-animation/Animate.m). The result:[^2]
+I wrote a simple script that uses this technique to animate a particle in a sine trajectory. You can download it [here](/matlab-animation/Animate.m). What it should look like:[^2]
 
 <figure>
 	<a href="/matlab-animation/sine.gif"><img src="/matlab-animation/sine.gif"></a>
@@ -105,6 +105,6 @@ I wrote another script to show how this can be implemented [here](/matlab-animat
 
 - Sometimes, especially if your animation update command is after complicated computation, you need to use `drawnow` to force the animation to occur in real time.
 
-- I learned a lot from MathWorks' animation example here: <https://www.mathworks.com/examples/matlab/4020-animation>, including how to export as GIFs. Some of the code in my examples are straight from here.
+- I learned a lot from MathWorks' animation example here: <https://www.mathworks.com/examples/matlab/4020-animation>, including how to export as GIFs.
 
 
