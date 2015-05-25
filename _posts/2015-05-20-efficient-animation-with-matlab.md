@@ -74,22 +74,25 @@ I wrote a simple script that uses this technique to animate a particle in a sine
 
 ### Animating Multiple Trajectories
 
-I ran into some problems when I needed to animate variable number of trajectories. I wanted to visualize how changing the number of particles in my system changed the trajectories, but MATLAB was giving me errors when I used the `set()` method. 
+I ran into some problems when I needed to animate *variable* number of trajectories. I wanted to visualize how changing the number of particles in my system changed the trajectories, but MATLAB was giving me errors when I used the `set()` method. 
 
-It turns out that animating multiple trajectories in stored one variable[^3] with the *same time vector* requires a trick. I will illustrate with an example:
+It turns out that animating multiple trajectories in stored one variable[^3] with the *same time vector* requires a trick. The old method won't work if the number of trajectories will be changing all the time. I will illustrate with an example:
 
 [^3]: Because of the way `ode45` worked, it was most convenient this way.
 
 {% highlight matlab %}
+% Initialize the trajectories
+particlePosition = zeros(randi(5),totalFrames)
+
 % Initialize the plot
 h = plot(timeFrame(1), particlePosition(:,1));
 
 % Animation loop
 for i = 2:totalFrames
 	% Compute the necessary data
-	particlePosition(1,i) = rand;
-	particlePosition(2,i) = rand;
-	particlePosition(3,i) = rand;
+	for j = 1:size(particlePosition,1)
+		particlePosition(j,i) = rand;
+	end
 
 	% Change the data in the plot
 	set(h, 'XData', timeFrame(i));
@@ -97,7 +100,7 @@ for i = 2:totalFrames
 end
 {% endhighlight %}
 
-Here, `particlePosition` contains three trajectories. Note the use of `num2cell` in setting `YData` is required for the animation to work properly because of the way graphics data are structured in MATLAB. 
+Here, `particlePosition` contains up to five trajectories. Note the use of `num2cell` in setting `YData` is required for the animation to work properly because of the way graphics data are structured in MATLAB. 
 
 **Note:** The`YData` you are setting must be a **column cell vector**. So if your data is structured such that each row represents a frame in the animation, you must transpose your data in `set()`.
 {: .notice}
