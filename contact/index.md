@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 image:
-  feature: street.jpg
+  feature: streets.jpg
 ---
 
 ### Email
