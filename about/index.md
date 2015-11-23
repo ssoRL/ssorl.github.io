@@ -6,6 +6,6 @@ image:
   feature: xiamen.jpg
 ---
 
-I am originally from Xiamen[^xiamen], China. I moved to Canada in 2004 and went to Shawnigan Lake School on Vancouver Island. Now, I am living in Montreal while studying at McGill University.
+I am originally from [Xiamen, China](http://en.wikipedia.org/wiki/Xiamen). I moved to Canada in 2004 and went to Shawnigan Lake School on Vancouver Island. 
 
-[^xiamen]: Xiamen is a lovely coastal city in south east China. [http://en.wikipedia.org/wiki/Xiamen](http://en.wikipedia.org/wiki/Xiamen)
+I graduated from McGill University in 2015.
