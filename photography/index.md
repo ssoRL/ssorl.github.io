@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Photography"
 excerpt: "Some examples of my photography work."
 tags: [images, photography]
