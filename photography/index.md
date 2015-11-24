@@ -7,7 +7,7 @@ image:
   feature: cambodia.jpg
 ---
 
-I enjoy taking photos but mainly for my own amusement.
+I enjoy taking photos mainly for my own amusement.
 
 ### Wikimedia Commons
 
@@ -15,20 +15,25 @@ Some of my favorite images are available on Wikimedia Commons, which means they 
 
 [See my Wikipidia profile and gallery here](https://en.wikipedia.org/wiki/User:Lianguanlun). 
 
-<figure class="half">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Montreal_from_above_Mont_Royal.jpg"></a>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Aerial_view_of_Lac_du_Chevreuil.jpg"></a>
-	<figcaption>Aerial photography</figcaption>	
-</figure>
+### Gallery
 
 <figure class="half">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Jiuqu_Brook_in_Wuyi_Mountains.jpg"></a>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Street_corner_in_Hanoi.JPG"></a>
-	<figcaption>Asia</figcaption>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/8/88/Montreal_from_above_Mont_Royal.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Montreal_from_above_Mont_Royal.jpg/800px-Montreal_from_above_Mont_Royal.jpg"></a>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/8/86/Aerial_view_of_Lac_du_Chevreuil.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Aerial_view_of_Lac_du_Chevreuil.jpg/800px-Aerial_view_of_Lac_du_Chevreuil.jpg"></a>
 </figure>
 
+&nbsp;
+
 <figure class="half">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Hoi%27an_by_the_river.jpg"></a>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Aerial_view_of_Lac_du_Chevreuil.jpg"></a>
-	<figcaption>Some more pictures I like</figcaption>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/a/ac/Jiuqu_Brook_in_Wuyi_Mountains.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Jiuqu_Brook_in_Wuyi_Mountains.jpg/800px-Jiuqu_Brook_in_Wuyi_Mountains.jpg"></a>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/6/60/Street_corner_in_Hanoi.JPG"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Street_corner_in_Hanoi.JPG/800px-Street_corner_in_Hanoi.JPG"></a>
 </figure>
+
+&nbsp;
+
+<figure class="half">
+	<a href="https://upload.wikimedia.org/wikipedia/commons/6/61/Hoi%27an_by_the_river.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hoi%27an_by_the_river.jpg/800px-Hoi%27an_by_the_river.jpg"></a>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/b/b1/Aerial_view_of_Lac_Rheaume.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Aerial_view_of_Lac_Rheaume.jpg/800px-Aerial_view_of_Lac_Rheaume.jpg"></a>
+</figure>
+
+&nbsp;
