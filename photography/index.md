@@ -13,7 +13,7 @@ I enjoy taking photos mainly for my own amusement.
 
 Some of my favorite images are available on Wikimedia Commons, which means they are free for anyone to use [under certain conditions](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia).
 
-[See my Wikipidia profile and gallery here](https://en.wikipedia.org/wiki/User:Lianguanlun). 
+[See my Wikipedia profile and gallery here](https://en.wikipedia.org/wiki/User:Lianguanlun). 
 
 ### Gallery
 
