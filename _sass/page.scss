@@ -21,6 +21,18 @@ body {
 	@include clearfix;
 }
 
+.bg-svg {
+  width: 100%;
+  background-image: url(_logo.svg);
+  background-size: cover;
+  height: 0;
+  padding: 0; /* reset */
+  padding-bottom: 100%;
+}
+figure > div {
+  margin: 1em auto;
+}
+
 /* Site name */
 .site-name {
 	@include grid(12,10);
