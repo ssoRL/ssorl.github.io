@@ -22,15 +22,7 @@ body {
 }
 
 .bg-svg {
-  width: 100%;
-  background-image: url(/images/logo.svg);
-  background-size: cover;
-  height: 0;
-  padding: 0; /* reset */
-  padding-bottom: 100%;
-}
-figure > div {
-  margin: 1em auto;
+  vertical-align: middle;
 }
 
 /* Site name */
