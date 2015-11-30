@@ -1,23 +1,23 @@
 # Site wide configuration
 
-title:            John Lian
+title:            Skyler Olson
 locale:           en_US
 # url:              http://localhost:4000 #default
 # url:              http://www.johnlian.ca
 
 # Site owner
 owner:
-  name:           John Lian
+  name:           Skyler Olson
   avatar:         bio-photo.png
   bio:            "Montreal, Quebec"
   # email:          john.lian@mail.mcgill.ca
   # Social networking links
   # twitter:        jlian
   # facebook:       jlian
-  github:         jlian
-  linkedin:       johnlian1
+  github:         ssorl
+  #linkedin:       skylerolson
   # youtube:        lianguanlun
-  instagram:      __jlian__
+  #instagram:      __jlian__
 
 # Jekyll configuration
 # https://github.com/mojombo/jekyll/wiki/Permalinks
