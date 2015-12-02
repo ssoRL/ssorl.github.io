@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About John
-tags: [about, John, Lian]
+title: About
+tags: [about, Skyler, Olson]
 image:
-  feature: xiamen.jpg
+  feature: pen-bay.jpeg
 ---
 
-I am originally from [Xiamen, China](http://en.wikipedia.org/wiki/Xiamen). I moved to Canada in 2004 and went to Shawnigan Lake School on Vancouver Island. 
-
-I graduated from McGill University in 2015.
+I grew up on the Midcoast of Maine, sailing, hiking, and learning how to use chainsaws, for the first eighteen years of my life. I was then drawn to Montreal, Quebec to study at McGill University, eventually graduating fours years later with a degree in Computer Science. Since then I've been working with two start ups: Computing Music, and Pleiades Robotics, where I've had the pleasure to be working on the cutting edge in the development of autonomous machines.

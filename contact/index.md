@@ -2,13 +2,12 @@
 layout: page
 title: Contact
 image:
-  feature: halong.jpg
+  feature: camp-nevada.jpg
 ---
 
-I prefer contact via email.
 
 ### Email
-[john.lian@mail.mcgill.ca](mailto:john.lian@mail.mcgill.ca)
+[skyler.olson.rl@gmail.com](mailto:skyler.olson.rl@gmail.com)
 
-<!-- ### Phone
-(514) 885-0198 -->
+### Phone
+(514) 632-4652
