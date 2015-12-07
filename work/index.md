@@ -2,7 +2,7 @@
 layout: page
 title: Work
 image:
-  feature: work.jpg
+  feature: popsicle-stick-1.png
 ---
 
 <section id="table-of-contents" class="toc">
@@ -15,69 +15,54 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-### Program Coordinator at FRC Team 4955 LA Tech
+### Software Developer at Pleiades Robotics
 
-I helped Lakeside Academy form the team in the 2013/2014 FRC season. We went from having absolutely no experience in robotics to finishing *Ethel*, our first robot, in under two months. 
+Since August 2015, I've been writing code for Spiri, a next generation quadcopter by
+Pleiades Robotics. It's still a small company, so a given day can find me debugging driver
+code, test flying our robot, fighting with the on-board networking tools,
+writing ROS modules, or making unit tests for our system.
 
-I served as the leader of the 30-person team responsible for integrating the Mechanical, Software, Electrical functions into our robots. In particular, I was most involved in the Mechanical side, completing most of the detail design using SolidWorks with custom as well as COTS parts. 
+The team I'm working with is small but very hard working. In just three months we went
+from a conceptual design to a flying prototype. Check out some of the code we open sourced, at
+[my github](https://github.com/ssoRL/spiri_go).
 
-At the same time, I focused on long-term sustainability of the team by installing a positive team culture, creating a friendly environment, and helping members learn useful skills. Under my leadership, we went from zero to multi-function robot in one season, and saw 100% return rate the next.
+### Software Developer at Computing Music
 
-#### *Ethel*
+During the Summer of 2013, and again after graduating in 2014, I was the lead (usually only)
+software developer for the Computing Music Web App. I made everything for the app from the
+bottom up during this time.
 
-*Ethel* competed in the game [*Aerial Assist*](http://www.usfirst.org/roboticsprograms/frc/2014-game). It can score in the both the high goal and and low goal reliably with its high-torque intake roller, pneumatic lifter, and spring-loaded launcher. 
+The apps backend was written in ocaml. This was a design choice made larely in order to easily
+interface with the rest of the computing music library, and despite some complexity in the
+setup, it's worked quite well. Ocaml is of course a type-safe and fast language, and its
+functional nature lends it well to generating the large json structures used to communicate
+with the frontend.
 
-<figure>
-	<a href="/images/ethel.jpg"><img src="/images/ethel.jpg"></a>
-	<figcaption>Ethel, our first robot.</figcaption>
-</figure>
+The front end started as a few javascript files. And then became a few more javascript files.
+And then a few more. Now it's all in typescipt, which I find really helps the organization. This
+is by far the most complicated part of the app, including windows to display sheet music
+and markings on it, as well as a fully functional command line to pass intensive work loads
+off to the server in Computing Music's own meta-language.
 
-#### *Watson* 
+I'm still doing some work with Computing Music part time. At the moment trying to build a new
+ui framework in React. React looks really cool.
 
-*Watson* competed in [*Recycle Rush*](http://www.usfirst.org/roboticsprograms/frc/2015-game). It can pick up and stack three totes and a bin. It has a reliable tote intake, a double geared motor elevator, and an encoder-based chain timing system. 
+### Internship at Ubisense
 
-<figure class="half">
-	<a href="/images/watson.jpg"><img src="/images/watson.jpg"></a>
-	<a href="/images/watson2.jpg"><img src="/images/watson2.jpg"></a>
-	<figcaption>Watson. It's very tall.</figcaption>
-</figure>
+During the Summer of 2012 I worked at [Ubisense](http://ubisense.net/en) in Camden Maine.
+During my time there, I was involved in tracking down and fixing bugs that clients in the
+field ran across, and also creating a test procedure to manually check the UI from the ground
+up when we were ready to release a new build
 
-### Simulating a One-Dimensional Gas With Suspended Magnets
+### Volunteering at Walksafe
 
-I completed an honours mechanical engineering thesis under Prof. Andrew Higgins. It can be viewed [here](thesis.pdf) (PDF warning). As a part of the the thesis, three projects were completed - listed below.
+Walksafe was a McGill Student service dedicated to making sure that everyone had someone to walk
+home with at night if they needed it. As an executive, I was in charge of managing our teams of
+volunteers, and as the Website Manager, I was in charge of bringing Walksafe's website up to
+date.
 
-#### MATLAB Particle Tracker
-
-With the help of open-source algorithms, I developed a user-friendly MATLAB application that could reliably and accurately track particles in video footages. 
-
-<div markdown="0"><a href="https://github.com/jlian/matlab-particle-tracker" class="btn btn-info"><i class="fa fa-fw fa-github"></i> View on GitHub</a></div>
-
-#### Magnets Suspension Device
-
-We were able to suspend magnets using a air-bearing mechanism. This allowed free magnetic interaction without friction - a key requirement for the success of the study.
-
-<figure>
-	<a href="/images/device.png"><img src="/images/device.png"></a>
-	<figcaption>A SolidWorks rendering of the device</figcaption>
-</figure>
-
-<figure>
-	<a href="/images/device2.jpg"><img src="/images/device2.jpg"></a>
-	<figcaption>Actual device complete with backlighting</figcaption>
-</figure>
-
-#### MATLAB Numerical Simulator for Nonlinear Interaction
-
-I also developed a numerical simulator used to compare theoretical trajectories with ones observed with image analysis. I will clean up the code and host it on GitHub soon.
-
-<figure>
-	<a href="/images/simvsreal.png"><img src="/images/simvsreal.png"></a>
-	<figcaption>Simulation of acoustic wave in nonlinear media vs observed with air bearing device.</figcaption>
-</figure>
-
-
-### Super Smashteroids
-
-A silly little game we developed in Java. It has multi player and level progression.
-
-
+On top of significant design changes I made in conjuction with our PR Executive, I also
+overhauled the mySQL database to better represent the way that we managed our volunteers at
+the time, and wrote an algorithm to handle the scheduling of volunteers. Scheduling was a task
+that had previously taken one of the executives several hours a month, working out all of the
+conflicts and dependencies. That time was reduced to the click of a button.
